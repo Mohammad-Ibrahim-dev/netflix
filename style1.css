@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background: url(asset/bg1.jpg);
+  width: 100%;
+  height: 95vh;
+  background-position: center center;
+  position: relative;
+}
+
+.blur {
+  background-color: black;
+  width: 100%;
+  height: 95vh;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 83vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+nav img {
+  width: 20vh;
+}
+
+#language {
+  width: 90px;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+
+}
+
+option {
+  color: black;
+}
+
+#sign {
+  width: 80px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.content {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 23px;
+  text-align: center;
+  gap: 30px;
+}
+
+.content> :nth-child(1) {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: white;
+}
+
+.content> :nth-child(2) {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.content> :nth-child(3) {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.content> :nth-child(4) {
+  width: 100%;
+  text-align: center;
+
+}
+
+#email {
+  width: 350px;
+  height: 54px;
+  color: white;
+  margin: 5px;
+  font-size: large;
+  background: black;
+  opacity: 0.7;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+#btn {
+  width: 180px;
+  height: 56px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 3px;
+}
+
+#email::placeholder {
+  color: white;
+  padding: 10px;
+}
+
+.separation {
+  background-color: grey;
+  height: 5px;
+}
+
+/* second part css */
+@media screen and (max-width:1300px) {
+  .part2 {
+    flex-wrap: wrap;
+  }
+}
+
+.part2 {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.secimg {
+  margin: 90px;
+  position: relative;
+}
+
+.secimg img {
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  top: 21%;
+  right: 14%;
+  width: 463px;
+}
+
+.first {
+  margin: 100px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first> :nth-child(1) {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+}
+
+.first> :nth-child(2) {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+
+/* third part css */
+
+.secimage {
+  margin: 90px;
+  position: relative;
+}
+
+.secimage img {
+  position: relative;
+}
+
+.secimage div {
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 10px;
+  width: 350px;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 120px;
+}
+
+.secimage div span {
+  align-self: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h6 {
+  color: blue;
+}
+
+.secimage div img {
+  width: 70px;
+}
+
+/* forth part css */
+
+.devices {
+  margin: 90px;
+  position: relative;
+}
+
+.devices img {
+  position: relative;
+  z-index: 10;
+}
+
+.devices video {
+  position: absolute;
+  top: 13%;
+  right: 25%;
+  width: 350px;
+}
+
+/* last part  */
+.last-part {
+  width: 100%;
+  /* height: 60vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+.last-part h1{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  color: white;
+  padding: 20px;
+}
+
+
+.info {
+  padding: 35px;
+  background-color:rgb(45, 45, 45);
+  width: 70vw;
+
+  color: white;
+  font-size:30px;
+}
+.last-part p{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+/* footer css */
+footer{
+color: rgba(255, 255, 255, 0.896);
+margin: 60px;
+padding: 40px;
+}
+.b1{
+  
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.b2{
+  margin: 20px 0px;
+   display: flex;
+   justify-content:space-between;
+  align-items: center; 
+}
+.num{
+  color: white;
+}
+.site{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  gap: 20px;
+  padding:;
+}
+.site a{
+  font-family: "Segoe UI", Arial, sans-serif;
+  color:rgba(255, 255, 255, 0.896);e;
+  align-self: flex-start;
+}
